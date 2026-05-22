@@ -6,7 +6,7 @@ import {defineConfig} from 'vite';
 export default defineConfig(() => {
   return {
     // Automatically sets subfolder path for GitHub Pages and root path for local/Netlify builds
-    base: process.env.GITHUB_ACTIONS === 'true' ? '/sneha-singh-portfolio/' : '/',
+    base: process.env.GITHUB_ACTIONS === 'true' ? '/Sneha-Singh-portfolio/' : '/',
     plugins: [react(), tailwindcss()],
     optimizeDeps: {
       esbuildOptions: {
